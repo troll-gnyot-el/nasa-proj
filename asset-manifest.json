@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/nasa-proj/static/css/main.3d3aa2e5.css",
+    "main.js": "/nasa-proj/static/js/main.1706dd41.js",
+    "static/js/787.2faa33d0.chunk.js": "/nasa-proj/static/js/787.2faa33d0.chunk.js",
+    "static/media/nebula.png": "/nasa-proj/static/media/nebula.e44122318635de5aaa47.png",
+    "static/media/clouds.png": "/nasa-proj/static/media/clouds.046dbde7f0b744d7a10a.png",
+    "static/media/flight-jacket-alpha.png": "/nasa-proj/static/media/flight-jacket-alpha.71d01a272f462e78929f.png",
+    "static/media/storm-cloud.png": "/nasa-proj/static/media/storm-cloud.8e49a4a65fefb2cae4ea.png",
+    "static/media/stars.png": "/nasa-proj/static/media/stars.c35b22d3a45cc3bbf5ad.png",
+    "static/media/hoodie-space.png": "/nasa-proj/static/media/hoodie-space.2035d98a93155437d642.png",
+    "static/media/nasa-astronaut-hoodie.png": "/nasa-proj/static/media/nasa-astronaut-hoodie.44042c84cd6fe7b07c2f.png",
+    "static/media/bg.png": "/nasa-proj/static/media/bg.9e78458fcdcf93024495.png",
+    "static/media/NASA-airplane.png": "/nasa-proj/static/media/NASA-airplane.d4455fbd050497743cc9.png",
+    "static/media/cosmos-hoodie.png": "/nasa-proj/static/media/cosmos-hoodie.0f2959a97b260507bd06.png",
+    "static/media/NASA-hoodie.png": "/nasa-proj/static/media/NASA-hoodie.eda294927fcca968851b.png",
+    "index.html": "/nasa-proj/index.html",
+    "main.3d3aa2e5.css.map": "/nasa-proj/static/css/main.3d3aa2e5.css.map",
+    "main.1706dd41.js.map": "/nasa-proj/static/js/main.1706dd41.js.map",
+    "787.2faa33d0.chunk.js.map": "/nasa-proj/static/js/787.2faa33d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d3aa2e5.css",
+    "static/js/main.1706dd41.js"
+  ]
+}
