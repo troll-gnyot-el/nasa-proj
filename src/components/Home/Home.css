@@ -12,7 +12,9 @@
 
 .home-text-container {
   text-align: left;
-  margin-left: 20px;
+  /*margin-left: 20px;*/
+  padding: 30px;
+  color: white;
 }
 
 .title-rainbow {
@@ -39,5 +41,28 @@
 .title-home {
   font-size: 120px;
   font-weight: 600;
-  line-height: 130px;
+  line-height: 120px;
+}
+
+.home-subtitle-link {
+  background: linear-gradient(
+          60deg,
+          #f79533,
+          #f37055,
+          #ef4e7b,
+          #a166ab,
+          #5073b8,
+          #1098ad,
+          #07b39b,
+          #6fba82
+  );
+  color: transparent;
+  background-clip: text;
+  background-size: 100% 200%;
+}
+
+.home-subtitle-text {
+  font-size: 30px;
+  max-width: 800px;
+  margin-top: 0;
 }

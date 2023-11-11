@@ -2,8 +2,8 @@
     font-weight: 500;
     display: flex;
     flex-flow: row wrap;
-    align-content: space-between;
-    justify-content: space-between;
+    align-content: center;
+    justify-content: center;
     margin-top: 30px;
 }
 
@@ -12,7 +12,7 @@
     flex-flow: column wrap;
     align-items: center;
     color: white;
-    margin-top: 80px;
+    margin-top: 65px;
 }
 
 .product-background-card {

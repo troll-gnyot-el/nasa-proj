@@ -7,10 +7,10 @@ function Menu(headerStyle) {
   return (
     <header id="header" className={"header " + headerStyle}>
       <div className="menu-container header__container">
-        <a href="src/components/Menu#" className="logo">
+        {/*<a href="src/components/Menu#" className="logo">*/}
           {/*<img className="logo__img" src={Logo} alt="Logo" />*/}
           <Label/>
-        </a>
+        {/*</a>*/}
         <nav className="menu">
           <ul className="menu__list">
             <li className="menu__item">
@@ -19,13 +19,13 @@ function Menu(headerStyle) {
               </Link>
             </li>
             <li className="menu__item">
-              <Link className="menu__link" to="/nasa-proj/space">
-                Space news
+              <Link className="menu__link" to="/nasa-proj/shop">
+                Merch
               </Link>
             </li>
             <li className="menu__item">
-              <Link className="menu__link" to="/nasa-proj/shop">
-                Merch
+              <Link className="menu__link" to="/nasa-proj/space">
+                Astronomy Picture of the Day
               </Link>
             </li>
           </ul>
