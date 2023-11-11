@@ -6,7 +6,7 @@ function Card({ productInfo }) {
   const navigate = useNavigate();
   function handleClick(id) {
     console.log("id card", id);
-    navigate(`/shop/${id}`);
+    navigate(`/nasa-proj/shop/${id}`);
   }
 
   useEffect(() => {

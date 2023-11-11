@@ -32,10 +32,10 @@ function App() {
         <Menu headerStyle={headerStyle} />
 
         <Routes>
-          <Route path="/shop/:id" element={<ProductDetail productInfo={productCards}/>} />
-          <Route path="/shop" element={<Shop productCards={productCards} />} />
-          <Route path="/space" element={<SpaceNews />} />
-          <Route path="/" element={<Home />} />
+          <Route path="/nasa-proj/shop/:id" element={<ProductDetail productInfo={productCards}/>} />
+          <Route path="/nasa-proj/shop" element={<Shop productCards={productCards} />} />
+          <Route path="/nasa-proj/space" element={<SpaceNews />} />
+          <Route path="/nasa-proj" element={<Home />} />
         </Routes>
         <Wallpaper />
       </BrowserRouter>

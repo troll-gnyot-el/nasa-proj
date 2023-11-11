@@ -14,17 +14,17 @@ function Menu(headerStyle) {
         <nav className="menu">
           <ul className="menu__list">
             <li className="menu__item">
-              <Link className="menu__link" to="/">
+              <Link className="menu__link" to="/nasa-proj">
                 Home
               </Link>
             </li>
             <li className="menu__item">
-              <Link className="menu__link" to="/space">
+              <Link className="menu__link" to="/nasa-proj/space">
                 Space news
               </Link>
             </li>
             <li className="menu__item">
-              <Link className="menu__link" to="/shop">
+              <Link className="menu__link" to="/nasa-proj/shop">
                 Merch
               </Link>
             </li>
