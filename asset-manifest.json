@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nasa-proj/static/css/main.3d3aa2e5.css",
-    "main.js": "/nasa-proj/static/js/main.75b0abf6.js",
+    "main.css": "/nasa-proj/static/css/main.dc7e439f.css",
+    "main.js": "/nasa-proj/static/js/main.e0d4d5a9.js",
     "static/js/787.2faa33d0.chunk.js": "/nasa-proj/static/js/787.2faa33d0.chunk.js",
     "static/media/nebula.png": "/nasa-proj/static/media/nebula.e44122318635de5aaa47.png",
     "static/media/clouds.png": "/nasa-proj/static/media/clouds.046dbde7f0b744d7a10a.png",
@@ -15,12 +15,12 @@
     "static/media/cosmos-hoodie.png": "/nasa-proj/static/media/cosmos-hoodie.0893cd28e520866b093e.png",
     "static/media/NASA-hoodie.png": "/nasa-proj/static/media/NASA-hoodie.e7379206bba56ff5ef01.png",
     "index.html": "/nasa-proj/index.html",
-    "main.3d3aa2e5.css.map": "/nasa-proj/static/css/main.3d3aa2e5.css.map",
-    "main.75b0abf6.js.map": "/nasa-proj/static/js/main.75b0abf6.js.map",
+    "main.dc7e439f.css.map": "/nasa-proj/static/css/main.dc7e439f.css.map",
+    "main.e0d4d5a9.js.map": "/nasa-proj/static/js/main.e0d4d5a9.js.map",
     "787.2faa33d0.chunk.js.map": "/nasa-proj/static/js/787.2faa33d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d3aa2e5.css",
-    "static/js/main.75b0abf6.js"
+    "static/css/main.dc7e439f.css",
+    "static/js/main.e0d4d5a9.js"
   ]
 }
