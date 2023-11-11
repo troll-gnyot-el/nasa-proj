@@ -1,0 +1,59 @@
+:root {
+  font-size: 20px;
+  box-sizing: inherit;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.card-text {
+  margin: 0;
+}
+
+.card-text:not(:last-child) {
+  margin-bottom: 1.5em;
+}
+
+.card {
+  max-width: 300px;
+  min-width: 250px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /*max-width: 500px;*/
+  height: 300px;
+  padding: 35px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+  /*backdrop-filter: blur(1px);*/
+  color: white;
+  z-index: 0;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.card-img {
+  height: 220px;
+}
+
+.card-footer {
+  color: #f62e87;
+  font-weight: bold;
+}
+
+.card:nth-child(n + 4) {
+  order: 1;
+}
+
+.card:nth-child(n + 7) {
+  order: 2;
+}

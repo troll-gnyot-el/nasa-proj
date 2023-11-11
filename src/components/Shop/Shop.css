@@ -1,0 +1,13 @@
+.shop-page {
+    padding: 60px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center/*space-between*/;
+    justify-content: center/*space-between*/;
+}
+
+.shop-page::before, .shop-page::after {
+    content: '';
+    width: 100%;
+    order: 1;
+}

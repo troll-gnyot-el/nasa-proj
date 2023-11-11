@@ -1,23 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Wallpaper from "./components/Wallpaper/Wallpaper";
+import React, { useState, useEffect } from "react";
+import Menu from "./components/Menu/Menu";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Shop from "./components/Shop/Shop";
+import ProductDetail from "./components/ProductDetail/ProductDetail";
+import Home from "./components/Home/Home";
+import {productMock} from "./mock/productMock";
+import SpaceNews from "./components/SpaceNews/SpaceNews";
 
 function App() {
+  const [headerStyle, setHeaderStyle] = useState("");
+
+  useEffect(() => {
+    window.addEventListener("scroll", function () {
+      const scrollPos = window.scrollY;
+
+      if (scrollPos > 100) {
+        setHeaderStyle("header_mini");
+      } else {
+        setHeaderStyle("");
+      }
+    });
+  }, []);
+
+  let [productCards, setProductCards] = useState(productMock);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Menu headerStyle={headerStyle} />
+
+        <Routes>
+          <Route path="/shop/:id" element={<ProductDetail productInfo={productCards}/>} />
+          <Route path="/shop" element={<Shop productCards={productCards} />} />
+          <Route path="/space" element={<SpaceNews />} />
+          <Route path="/" element={<Home />} />
+        </Routes>
+        <Wallpaper />
+      </BrowserRouter>
     </div>
   );
 }
