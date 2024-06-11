@@ -1,10 +1,16 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import {useNavigate, useParams} from "react-router-dom";
 import "./ProductDetail.css";
 
-const ProductDetail = ({ productInfo }) => {
+const ProductDetail = ({ productInfo, addToCart }) => {
   const { id } = useParams();
   const product = productInfo[id - 1];
+  const navigate = useNavigate();
+
+  const handleAddToCart = () => {
+    addToCart(product);
+    navigate('/nasa-proj/cart');
+  };
 
   return (
     <div className="product-page-container">
@@ -25,8 +31,13 @@ const ProductDetail = ({ productInfo }) => {
           </div>
         )}
         <div className="product-description">
-          <div><p className='title-rainbow'>Sizes:</p> XS, S, M, L, Xl, XXl</div>
-          <div><p className='title-rainbow'>Description:</p> {product?.description} </div>
+          <div>
+            <p className="title-rainbow">Sizes:</p> XS, S, M, L, XL, XXL
+          </div>
+          <div>
+            <p className="title-rainbow">Description:</p> {product?.description}{" "}
+          </div>
+          <button onClick={handleAddToCart} className="title-rainbow add-to-cart-btn">Add to Cart</button>
         </div>
       </div>
     </div>
